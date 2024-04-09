@@ -198,3 +198,35 @@ h3 {
     bottom: 49%;
     opacity: 1;
 }
+
+/*---- Products ----*/
+
+.products {
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.products-col {
+    flex-basic: 31%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.products-col img {
+    border-radius: 10px;
+}
+
+.products-col p {
+    padding: 0;
+}
+
+.products-col h5 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
