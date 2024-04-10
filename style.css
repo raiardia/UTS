@@ -320,3 +320,13 @@ h3 {
     background-position: center;
     background-size: cover;
 }
+
+/*---- contact page ----*/
+
+.subbbb-header {
+    height: 80vh;
+    width: 100%;
+    background-image: url(images/banner\ contact.jpeg);
+    background-position: center;
+    background-size: cover;
+}
