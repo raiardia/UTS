@@ -300,7 +300,7 @@ h3 {
     background-size: cover;
 }
 
-/*---- about us services ----*/
+/*---- services page ----*/
 
 .subb-header {
     height: 80vh;
@@ -311,3 +311,12 @@ h3 {
 
 }
 
+/*---- products page ----*/
+
+.subbb-header {
+    height: 80vh;
+    width: 100%;
+    background-image: url(images/banner\ products.jpg);
+    background-position: center;
+    background-size: cover;
+}
