@@ -251,3 +251,14 @@ h3 {
     margin-bottom: 40px;
     padding: 0;
 }
+
+
+/*---- footer ----*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #12372A;
+    color: #ffffff;
+}
