@@ -299,3 +299,15 @@ h3 {
     background-position: center;
     background-size: cover;
 }
+
+/*---- about us services ----*/
+
+.subb-header {
+    height: 80vh;
+    width: 100%;
+    background-image: url(images/banner\ services\ .jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
