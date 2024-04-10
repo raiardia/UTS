@@ -288,3 +288,14 @@ h3 {
         text-align: center;
     }
 }
+
+
+/*---- about us page ----*/
+
+.sub-header {
+    height: 80vh;
+    width: 100%;
+    background-image: url(images/banner\ about.jpg);
+    background-position: center;
+    background-size: cover;
+}
