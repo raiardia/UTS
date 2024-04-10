@@ -87,8 +87,8 @@ nav a {
 .hero-btn {
     display: inline-block;
     text-decoration: none;
-    color: #12372A;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color:#12372A;
     padding: 15px;
     font-size: 13px;
     position: relative;
@@ -145,8 +145,8 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    background-color: #436850;
-    color:#ffffff;
+    background-color: #ADBC9F;
+    color:#000000;
 }
 
 .services p {
@@ -179,7 +179,7 @@ h3 {
 }
 
 .layer:hover {
-    background: rgba(255, 255, 255, 0.7); ;
+    background: rgba(255, 255, 255, 0.7); 
 }
 
 .layer h3{
@@ -205,6 +205,8 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 40px;
+    background-color: #436850;
+    color:#ffffff;
 }
 
 .products-col {
@@ -229,4 +231,23 @@ h3 {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+}
+
+/*---- contact ----*/
+
+.contact {
+    width: 90%;
+    margin: 100px auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url(images/bannerr.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+   
+}
+
+.contact h1 {
+    margin-bottom: 40px;
+    padding: 0;
 }
