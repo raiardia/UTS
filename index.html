@@ -1,46 +1,78 @@
 <!DOCTYPE html>
+<!--Memberi tahu browser bahwa dokumen ini adalah berformat HTML.-->
 <html lang="en">
+<!--Menyetel bahasa konten halaman web menjadi bahasa Inggris-->
+
 <head>
+<!--Menampung informasi meta tentang halaman web, tetapi tidak ditampilkan langsung di konten halaman-->
     <meta charset="UTF-8">
+    <!--karakter set yang umum digunakan untuk mendukung berbagai bahasa.-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Baris ini ditujukan khusus untuk browser Internet Explorer (IE). Ini memberitahu IE untuk menggunakan mode rendering terbaru yang tersedia, memastikan kompatibilitas dengan standar web modern.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Mendefinisikan viewport (area pandang) untuk halaman web. Baris ini memastikan halaman web responsif untuk melihatnya (ponsel, tablet, komputer desktop).-->
     <title>Green Vibes</title>
+    <!--Judul halaman ini adalah "Green Vibes".-->
     <link rel="stylesheet" href="style.css">
+    <!--"style.css" yang berisi aturan gaya untuk memformat tampilan halaman web.-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--Memuatkan font eksternal dari Google Fonts. Baris ini memuat berbagai varian gaya font "Poppins" (regular dan italic, dengan bobot 100 hingga 900).-->
 </head>
 
 <body>
+<!--yang menandakan akhir dari konten halaman web yang ditampilkan di browser.-->
     <section class="header">
+        <!--dengan kelas "header" yang menandakan area header pada halaman web.-->
         <nav>
+            <!--yang menandakan area navigasi pada header.-->
             <a href="index.html">Green Vibes</a>
+            <!--Memasukkan tautan ke halaman "index.html" dengan teks "Green Vibes".-->
             <div class="nav-links">
+                <!--dengan kelas "nav-links" yang menampung daftar tautan navigasi.-->
                 <ul>
+                    <!--untuk membuat daftar tidak berurutan (unordered list).-->
                     <li><a href="index.html">Home</a></li>
+                    <!--Tautan ke halaman "index.html" dengan teks "Home".-->
                     <li><a href="about.html">About</a></li>
+                    <!--Tautan ke halaman "about.html" dengan teks "About".-->
                     <li><a href="services.html">Services</a></li>
+                    <!--Tautan ke halaman "services.html" dengan teks "Services".-->
                     <li><a href="products.html">Products</a></li>
+                    <!--Tautan ke halaman "products.html" dengan teks "Products".-->
                     <li><a href="contact.html">Contact</a></li>
+                    <!--Tautan ke halaman "contact.html" dengan teks "Contact".-->
                 </ul>
             </div>
         </nav>
-<div class="text-box">
-    <h1>Jual Tanaman Hias Beragam dengan Harga Murah</h1>
-    <p>Tanaman hias menjadi salah satu pilihan agar bisa menambah estetika ruangan. Akan tetapi ketika akan memberikan akses <br>tanaman tersebut pilih jenis tanaman hias yang asli dibandingkan artificial.</p>
-    <a href="" class="hero-btn">Tentang Kami</a>
-</div>
+
+        <div class="text-box">
+            <!--dengan kelas "text-box" yang menampung teks dan tombol di header.-->
+            <h1>Jual Tanaman Hias Beragam dengan Harga Murah</h1>
+            <!--Heading 1 untuk teks utama.-->
+            <p>Tanaman hias menjadi salah satu pilihan agar bisa menambah estetika ruangan. Akan tetapi ketika akan memberikan akses <br>tanaman tersebut pilih jenis tanaman hias yang asli dibandingkan artificial.</p>
+            <!--Paragraf untuk teks deskriptif.-->
+            <a href="" class="hero-btn">Tentang Kami</a>
+            <!--Memasukkan tautan dengan kelas "hero-btn" yang memiliki teks "...".-->
+        </div>
     </section>
 
 <!---- About ---->
 
 <section class="about">
+    <!--dengan kelas "about" yang menandakan area tentang pada halaman web.-->
     <h1>#TanamanUntukSemuaRuang</h1>
+    <!--Heading 1 untuk teks utama dengan tagar "#TanamanUntukSemuaRuang".-->
 
     <div class="row">
+        <!--dengan kelas "row" yang menampung konten dalam baris (row).-->
         <div class="about-col">
+            <!--dengan kelas "about-col" yang menampung setiap kolom informasi.-->
             <h3>Sampaikan Kebutuhan Anda</h3>
+            <!--Heading 3 untuk judul sub-bagian.-->
             <p>Sampaikan kebutuhan Anda melalui WhatsApp atau email. Tim kami akan menghubungi Anda untuk melakukan konsultasi.</p>
+            <!--Paragraf untuk teks deskriptif.-->
         </div>
          <div class="about-col">
             <h3>Pilih Jenis Tanaman & Rekomendasi</h3>
@@ -61,14 +93,22 @@
 <!---- Services ---->
 
 <section class="services">
+    <!--dengan kelas "services" yang menandakan area layanan pada halaman web.-->
     <h1>Ingin mewujudkan kebutuhan tanaman yang lebih spesifik?</h1>
+    <!--Heading 1 untuk teks utama.-->
     <p>Green Vibes menyediakan beragam layanan tanaman indoor sesuai permintaan Anda. <br>Konsultasikan pada tim ahli kami sekarang.</p>
+    <!--Paragraf untuk teks deskriptif.-->
 
     <div class="row">
+        <!--dengan kelas "row" yang menampung konten dalam baris (row).-->
         <div class="services-col">
+            <!--dengan kelas "services-col" yang menampung setiap kolom layanan.-->
             <img src="images/taman 1.jpg">
+            <!--Memasukkan gambar dengan atribut -->
             <div class="layer">
+                <!--dengan kelas "layer" yang menampung teks pada gambar.-->
                 <h3>Penyedia Tanaman untuk Desain Interior</h3>
+                <!--Heading 3 untuk judul layanan.-->
             </div>
         </div>
         <div class="services-col">
@@ -90,14 +130,22 @@
 <!----- Products ---->
 
 <section class="products">
+    <!--dengan kelas "products" yang menandakan area produk pada halaman web.-->
     <h1>Hadirkan beragam tanaman berkualitas tinggi untuk keperluan bisnis Anda</h1>
+    <!--Heading 1 untuk teks utama.-->
     <p>Temukan beragam jenis tanaman indoor berkualitas dari katalog kami yang sesuai dengan kondisi ruangan Anda. <br>Gratis biaya pengiriman dan pemasangan untuk semua pembelian paket.</p>
+    <!--Paragraf untuk teks deskriptif.-->
 
     <div class="row">
+        <!--dengan kelas "row" yang menampung konten dalam baris (row).-->
         <div class="products-col">
+            <!--dengan kelas "products-col" yang menampung setiap kolom produk.-->
             <img src="images/gambar 2.jpg" width="300px">
+            <!--Memasukkan gambar dengan atribut -->
             <h5>FLOOR PLANT</h5>
+            <!--Heading 5 untuk judul produk.-->
             <p>Calathea Medallion Plant</p>
+            <!-- Paragraf untuk nama tanaman.-->
         </div>
         <div class="products-col">
             <img src="images/gambar 4.jpg" width="308px">
@@ -121,19 +169,24 @@
 <!---- Contact ---->
 
 <section class="contact">
-    <h1>Puluhan tanaman indoor pilihan dengan kualitas terbaik. <br>
-    Pelajari lebih lanjut bagaimana kami dapat mendukung kebutuhan tanaman Anda</h1>
+    <!--dengan kelas "contact" yang menandakan area kontak pada halaman web.-->
+    <h1>Puluhan tanaman indoor pilihan dengan kualitas terbaik. <br>Pelajari lebih lanjut bagaimana kami dapat mendukung kebutuhan tanaman Anda</h1>
+    <!--Heading 1 untuk teks utama.-->
     <a href="" class="hero-btn">CONTACT US</a>
+    <!--Memasukkan tautan dengan kelas "hero-btn" yang memiliki teks "CONTACT US".-->
 </section>
 
 <!---- Footer ---->
 
 <section class="footer">
+    <!--dengan kelas "footer" yang menandakan area footer pada halaman web.-->
     <h4>About Us</h4>
+    <!--Heading 4 untuk judul "About Us".-->
     <p>© 2024 Green Vibes. All rights reserved.<br>
     Jalan Kunti 1, Bali, Badung, 448822 <br>
     Phone: (123) 456-7890 | Email: greenvibes.com <br>
     Kebijakan Privasi | Syarat dan Ketentuan | Peta Situs </p>
+    <!--Paragraf untuk informasi tentang Green Vibes-->
 </section>
 
 </body>
